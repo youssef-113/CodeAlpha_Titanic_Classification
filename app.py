@@ -27,7 +27,6 @@ y = data['Survived']
 # Refit the model to ensure column alignment
 model.fit(X, y)
 
-st.set_page_config("titanic survival predictor" ,layout="wide")
 st.title("🚢 Titanic Survival Predictor ")
 
 # Sidebar for input features
